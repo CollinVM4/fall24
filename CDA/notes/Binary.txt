@@ -1,0 +1,61 @@
+Binary Notes 8/21/24
+
+
+    Base Conversion 
+        * divide by target base 
+            ex. (19)10  -----> base 2
+            remainder is the rightmost digit in the target base
+
+            19/2 = 9 r1
+            9/2 = 4 r1
+            4/2 = 2 r0
+            2/2 = 1 r0
+            1/2 = 0 r1
+                * start from bottom (will be leftmost)
+                solution - 10011
+
+    Negative Numbers in Binary  
+        * Signed Binary Numbers
+            leftmost (MSB) is the sign bit
+            ex. 101 <- -1       01 <- 1
+                ^sign-bit       ^sign-bit
+
+    Another Representation
+        * 1's compliment aka flip the bits
+            0111 <- positive 7
+            1000 <- negative 7
+        * disadvantages 
+            0 and -0 have representations 
+
+        * 2's compliment aka flip the bits, add 1 
+            7 -> 0111
+           -7 -> 1001
+
+
+
+    Binary Subtraction
+        * binary numbers are subtracted by adding their 2's compliment equivalent
+
+        6 
+        110
+
+        001
+        +01
+        010
+
+
+        4      
+        0100
+
+        1011
+        0001
+
+        1111
+
+
+
+
+
+
+
+        

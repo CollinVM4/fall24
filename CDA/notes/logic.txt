@@ -1,0 +1,9 @@
+
+
+OR operator written as + 
+    ex. A+B (||)
+
+NOT is written as A'
+
+
+And operator written as * 

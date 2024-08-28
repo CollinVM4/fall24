@@ -7,8 +7,10 @@
 
 import java.util.Scanner;
 
-public class Daytona {
-    public static void main(String[] args) throws Exception {
+public class Daytona 
+{
+    public static void main(String[] args) throws Exception 
+    {
 
         // opening text
         System.out.println("Welcome to Daytona Beach!");
