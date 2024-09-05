@@ -41,7 +41,7 @@ public class classGame
                     }
                     else
                     {
-                        System.out.println("u chillin bra");
+                        System.out.println(" (ALIVE)");
                     }
                     System.out.println("HP: " + play.getCurrentHP() + "/" + play.getMaxHP());
                     System.out.println("potions " + play.getPotions());
