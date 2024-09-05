@@ -1,9 +1,8 @@
+Operators
+    * AND 
+    ' NOT / negate
+    + OR
+    AB <- implied multiplication aka &&
 
-
-OR operator written as + 
-    ex. A+B (||)
-
-NOT is written as A'
-
-
-And operator written as * 
+Proof Mechanisms
+    * truth tables
