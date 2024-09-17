@@ -1,0 +1,10 @@
+method overloading 
+
+can have multiple funcs named the same 
+    * as long as order of the params is different, its ok
+
+    ex. 
+    Trains()
+    Trains(string)  
+    Trains(string, int)
+    Trains(int, string)

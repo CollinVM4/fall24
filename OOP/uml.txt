@@ -1,0 +1,42 @@
+uml notes 
+
+* this concept will be on all 3 exams
+
+* separates thinking and doing 
+* provides structure and relationship for a program
+
+
+structure is...
+    name of class:
+    vars:      
+    constructors:  
+    methods:
+
+    + refers to public
+    - refers to private
+
+
+ex. 
+    account                    <--- name of class
+
+    - double balance           <--- vars
+    - double interestRate      
+    - String name
+
+    + account(string, double)  <--- constructors 
+
+    + boolean withdraw(double) <--- methods
+    + boolean deposit(double)
+    + void calcInterest(int)
+    + string getName()
+    + double getBalance()
+
+
+another class:     
+    bank
+
+    - static account[] accounts  <-- vars
+
+    (no constructors)
+
+    + void static main(string[]) <-- methos
