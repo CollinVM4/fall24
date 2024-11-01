@@ -1,6 +1,6 @@
 5
-1 2
-4 8
-12 30
-90 100
-2 3
+John true
+Sally false
+Sarah false
+Ray true
+Juan true

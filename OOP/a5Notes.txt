@@ -1,0 +1,27 @@
+Assignment 5 - Stacks for OOP
+
+
+/*
+
+    1. Messages will be between 5 and 1,000,000 units long.
+    2. Messages will have groups to show which parts need to be encoded first.
+    3. The character '1' will show a start of a group, and the character '2' will the end
+    4. Each grouping will 3 characters.  Take the middle value will always be a vowel and the two end values will be consonants.   
+    5. Instead of consonants, another grouping can replace one or both of them.   A grouping cannot replace a vowel.   
+    6. You must evaluate the nested/replaced groupings.  Since 1 and 2 give you the end you can read it left to right. 
+    7. The output should only have the letters inside. 
+
+*/
+
+
+basically messages will be seperated by 1 as beggining and 2 as end 
+
+Vowels will get pushed to the end of the message 
+
+    ex. 
+    1cat2  -> cta 
+
+    11top2e1cat22
+
+    top2
+    
